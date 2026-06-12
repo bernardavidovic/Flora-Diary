@@ -1,5 +1,6 @@
-FLORA DIARY
-- otvara se index.html s ekstenzijom Live Server u VSC-u
+FLORA DIARY je stranica koja služi kao digitalni dnevnik za biljke s podsjetnikom za zalijevanje i općenitim podatcima o biljkama.
+- otvara se desnim klikom na index.html s ekstenzijom Live Server u VSC-u
+
 
 
 
