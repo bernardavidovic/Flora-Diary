@@ -1,0 +1,1 @@
+- otvara index.html s ekstenzijom Live Server u VSC-u
