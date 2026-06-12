@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dodaj biljku – Flora Diary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <a href="index.html" class="logo">Flora Diary</a>
+  <div class="nav-links">
+    <a href="index.html">Biljke</a>
+    <a href="dodaj.html" class="active">Dodaj biljku</a>
+    <a href="vrste.html">Vrste</a>
+    <a href="kontakt.html">O projektu</a>
+  </div>
+</nav>
+
+<div class="page">
+  <div class="page-header">
+    <div class="page-header-deco"></div>
+    <h1>Dodaj biljku</h1>
+  </div>
+
+  <div class="form-wrap">
+    <div id="alert" class="alert"></div>
+
+    <div class="f-grid">
+      <div class="fg">
+        <label for="inp-naziv">Naziv *</label>
+        <input type="text" id="inp-naziv">
+      </div>
+      <div class="fg">
+        <label for="inp-lat">Latinski naziv</label>
+        <input type="text" id="inp-lat">
+      </div>
+      <div class="fg">
+        <label for="inp-vrsta">Vrsta</label>
+        <select id="inp-vrsta">
+          <option value="sobne">Sobne biljke</option>
+          <option value="kaktusi">Kaktusi</option>
+          <option value="zacinske">Začinske biljke</option>
+          <option value="jednogodisnje">Jednogodišnje</option>
+          <option value="visegodisnje">Višegodišnje</option>
+        </select>
+      </div>
+      <div class="fg">
+        <label for="inp-datum">Datum nabave</label>
+        <input type="date" id="inp-datum">
+      </div>
+      <div class="fg">
+        <label for="inp-interval">Interval zalijevanja (dani)</label>
+        <input type="number" id="inp-interval" min="1" max="60">
+      </div>
+      <div class="fg">
+        <label for="inp-foto">Fotografija</label>
+        <input type="file" id="inp-foto" accept="image/*">
+      </div>
+    </div>
+
+    <div class="fg" style="margin-bottom:13px;">
+      <label for="inp-prica">Priča o nabavi</label>
+      <textarea id="inp-prica"></textarea>
+    </div>
+
+    <div class="fg" style="margin-bottom:20px;">
+      <label for="inp-biljeska">Bilješka o rastu</label>
+      <textarea id="inp-biljeska"></textarea>
+    </div>
+
+    <div style="display:flex;gap:9px;align-items:center;">
+      <button class="btn" onclick="dodajNovuBiljku()">Spremi biljku</button>
+      <a href="index.html" class="btn-ghost">Odustani</a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

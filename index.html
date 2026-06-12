@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flora Diary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <a href="index.html" class="logo">Flora Diary</a>
+  <div class="nav-links">
+    <a href="index.html" class="active">Biljke</a>
+    <a href="dodaj.html">Dodaj biljku</a>
+    <a href="vrste.html">Vrste</a>
+    <a href="kontakt.html">O projektu</a>
+  </div>
+</nav>
+
+<div class="page">
+  <div class="page-header">
+    <div class="page-header-deco"></div>
+    <h1>Moje biljke</h1>
+  </div>
+
+  <div class="stat-row">
+    <div class="stat-box">
+      <div class="stat-n" id="stat-ukupno">—</div>
+      <div class="stat-l">Ukupno biljaka</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-n" id="stat-treba" style="color:#B84020;">—</div>
+      <div class="stat-l">Treba zaliti</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-n" id="stat-uskoro" style="color:#8A6500;">—</div>
+      <div class="stat-l">Uskoro na redu</div>
+    </div>
+  </div>
+
+  <div class="filters" id="filters"></div>
+  <div class="grid" id="grid"></div>
+</div>
+
+<script src="script.js"></script>
+<script>ucitajBiljke();</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vrste>
+  <vrsta id="sobne">
+    <naziv>Sobne biljke</naziv>
+    <opis>Biljke prilagođene životu u zatvorenom prostoru. Vole difuzno svjetlo i stabilnu temperaturu. Idealne su za stanove i kuće jer pročišćavaju zrak i donose mir u prostor.</opis>
+    <uvjeti>
+      <svjetlo>Difuzno, indirektno svjetlo</svjetlo>
+      <temperatura>18–24 °C</temperatura>
+      <vlaga>Umjerena do visoka</vlaga>
+      <zalijevanje>Redovito, jednom tjedno</zalijevanje>
+    </uvjeti>
+    <savjet>Obrišite lišće vlažnom krpom jednom mjesečno — biljkama to pomaže pri fotosintezi.</savjet>
+  </vrsta>
+  <vrsta id="kaktusi">
+    <naziv>Kaktusi</naziv>
+    <opis>Biljke koje pohranjuju vodu u stabljici. Iznimno su otporne i zahtijevaju minimalnu njegu. Savršene za ljude koji zaboravljaju zalijevati — i za one koji ih voze u koferu s mora.</opis>
+    <uvjeti>
+      <svjetlo>Puno direktno sunce</svjetlo>
+      <temperatura>15–35 °C</temperatura>
+      <vlaga>Niska</vlaga>
+      <zalijevanje>Rijetko, svaka 2 tjedna ili rjeđe</zalijevanje>
+    </uvjeti>
+    <savjet>Bolje je zalijiti premalo nego previše — korijenje kaktusa trune u mokroj zemlji.</savjet>
+  </vrsta>
+  <vrsta id="zacinske">
+    <naziv>Začinske biljke</naziv>
+    <opis>Mirisne i korisne biljke koje možete uzgajati u loncima na prozorskoj dasci ili balkonu. Uvijek pri ruci za kuhanje, a uz to ukrašavaju prostor zelenom bojom i aromom.</opis>
+    <uvjeti>
+      <svjetlo>Puno sunce, min. 6 sati dnevno</svjetlo>
+      <temperatura>18–28 °C</temperatura>
+      <vlaga>Umjerena</vlaga>
+      <zalijevanje>Zemlja treba biti vlažna, ali ne mokra</zalijevanje>
+    </uvjeti>
+    <savjet>Redovito otkidajte vrhove da biljka grana — tako ćete imati više listova za kuhanje.</savjet>
+  </vrsta>
+  <vrsta id="jednogodisnje">
+    <naziv>Jednogodišnje biljke</naziv>
+    <opis>Biljke koje procvjetaju, daju sjeme i završe ciklus unutar jedne sezone. Suncokreti, kadifice, neveni — svake godine iznova donose novo iznenađenje i boje.</opis>
+    <uvjeti>
+      <svjetlo>Puno sunce</svjetlo>
+      <temperatura>15–30 °C</temperatura>
+      <vlaga>Umjerena</vlaga>
+      <zalijevanje>Redovito, posebno za vrijeme cvatnje</zalijevanje>
+    </uvjeti>
+    <savjet>Uklonite uvele cvjetove čim se pojave — to potiče biljku da proizvede nove.</savjet>
+  </vrsta>
+  <vrsta id="visegodisnje">
+    <naziv>Višegodišnje biljke</naziv>
+    <opis>Biljke koje prezimljavaju i vraćaju se svake sezone. Jednom posađene, godinama ukrašavaju prostor uz minimalnu brigu — pravo ulaganje u zelenilo.</opis>
+    <uvjeti>
+      <svjetlo>Ovisi o vrsti — od punog sunca do sjene</svjetlo>
+      <temperatura>Uglavnom podnose niže temperature</temperatura>
+      <vlaga>Umjerena</vlaga>
+      <zalijevanje>Umjereno, posebno u sušnim periodima</zalijevanje>
+    </uvjeti>
+    <savjet>Proljetna rezidba starih stabljika potiče svježiji rast i bujan cvat.</savjet>
+  </vrsta>
+</vrste>

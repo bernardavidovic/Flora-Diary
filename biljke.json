@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "naziv": "Suncokret",
+    "vrstaId": "jednogodisnje",
+    "latinskiNaziv": "Helianthus annuus",
+    "datumNabave": "2026-05-17",
+    "prica": "Kupljen na Flora Artu na Bundeku",
+    "zadnjeZalijevanje": "2026-06-10",
+    "intervalZalijevanja": 3,
+    "biljeska": "Raste brzo prema svjetlu, svaki dan se malo okrene.",
+    "fotografija": "suncokret.jpg"
+  },
+  {
+    "id": 2,
+    "naziv": "Kaktus",
+    "vrstaId": "kaktusi",
+    "latinskiNaziv": "Cereus hildmannianus",
+    "datumNabave": "2026-04-29",
+    "prica": "Sa random štanda u Cetinju, zgnječen u koferu, oporavlja se",
+    "zadnjeZalijevanje": "2026-05-30",
+    "intervalZalijevanja": 14,
+    "biljeska": "Ponekad izvući na balkon.",
+    "fotografija": "kaktus.jpg"
+  },
+  {
+    "id": 3,
+    "naziv": "Orhideja",
+    "vrstaId": "sobne",
+    "latinskiNaziv": "Phalaenopsis amabilis",
+    "datumNabave": "2025-09-18",
+    "prica": "Poklon od mame za rođendan",
+    "zadnjeZalijevanje": "2026-06-05",
+    "intervalZalijevanja": 7,
+    "biljeska": "Ne voli direktno sunce. Zalijevam jednom tjedno, uvijek navečer.",
+    "fotografija": "orhideja.jpg"
+  }
+]

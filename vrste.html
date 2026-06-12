@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vrste biljaka – Flora Diary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <a href="index.html" class="logo">Flora Diary</a>
+  <div class="nav-links">
+    <a href="index.html">Biljke</a>
+    <a href="dodaj.html">Dodaj biljku</a>
+    <a href="vrste.html" class="active">Vrste</a>
+    <a href="kontakt.html">O projektu</a>
+  </div>
+</nav>
+
+<div class="page">
+  <div class="page-header">
+    <div class="page-header-deco"></div>
+    <h1>Vrste biljaka</h1>
+  </div>
+  <div class="vrste-grid" id="vrste-grid">
+    <div class="empty">Učitavanje...</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<script>ucitajVrste();</script>
+</body>
+</html>
